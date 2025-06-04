@@ -1,16 +1,17 @@
 body {
   background-color: transparent;
-  color: black;
+  color: white;
   font-family: monospace;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
   margin: 0;
+  font-size: clamp(2rem, 8vw, 6rem);
 }
 
 .terminal {
-  font-size: 2em;
+  font-size: inherit;
   white-space: nowrap;
 }
 
